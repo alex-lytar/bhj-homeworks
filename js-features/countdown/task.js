@@ -20,7 +20,6 @@ counter = () => {
             digitArr[2] = 59
         }
         if (digitArr[0] < 0) {
-            clearInterval;
             location = 'https://drive.google.com/file/d/1oV3cGF4trqtjL8r6c6F7IyWdWRx0j-2v/view?usp=sharing';
             return alert('Вы победили в конкурсе!');
         }
