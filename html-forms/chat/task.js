@@ -36,7 +36,7 @@ function autoAnswer() {
     let idx = Math.floor(Math.random() * 10);
     let timeStamp = new Date();
     if (newMessage.classList.contains('message_client')) {
-        (timeStamp.getHours() > 18 || timeStamp.getHours() < 9) ? answerSelector(boxOfAnswers, 10) : answerSelector(boxOfAnswers, idx);           
+        answerSelector(boxOfAnswers, idx);           
     }
 }
 
