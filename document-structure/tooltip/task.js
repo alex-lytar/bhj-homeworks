@@ -15,5 +15,5 @@ elementHasHint.forEach(element => element.addEventListener('click', (ev) => {
     `<div class="tooltip tooltip_active" style="position:absolute; top:${location.bottom + 5}px; left:${location.left}px">
         ${ev.target.title}
     </div>`);
-    setTimeout(hintRemuval, 3000);
 }));
+
