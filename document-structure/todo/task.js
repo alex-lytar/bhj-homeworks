@@ -22,10 +22,5 @@ addTaskButton.addEventListener('click', (ev) => {
 
 taskList.addEventListener('click', (ev) => {
     ev.preventDefault();
-    const deleteTaskButton = document.querySelectorAll('.task__remove');
-    deleteTaskButton.forEach(() => {
-        if (ev.target) {
-            ev.target.parentElement.remove();
-        }
-    });
+    ev.target.parentElement.remove();
 }) 
