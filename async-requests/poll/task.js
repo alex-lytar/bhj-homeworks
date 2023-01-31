@@ -1,7 +1,7 @@
 const quizTitle = document.getElementById('poll__title');
 const quizOptions = document.getElementById('poll__answers');
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://netology-slow-rest.herokuapp.com/poll.php');
+xhr.open('GET', 'https://students.netoservices.ru/nestjs-backend/poll');
 xhr.send();
 
 xhr.addEventListener('readystatechange', function() {

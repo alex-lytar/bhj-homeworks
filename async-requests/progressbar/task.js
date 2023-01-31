@@ -4,7 +4,7 @@ const progressEl = document.getElementById('progress');
 formEl.addEventListener('submit', (ev) => {
     ev.preventDefault();
     const request = new XMLHttpRequest();
-    request.open('POST', 'https://netology-slow-rest.herokuapp.com/upload.php');
+    request.open('POST', 'https://students.netoservices.ru/nestjs-backend/upload');
     //от строки ниже
     const file = document.getElementById('file').files;
     const fileName = document.querySelector('.input__wrapper-desc');
